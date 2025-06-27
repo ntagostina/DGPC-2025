@@ -1,0 +1,59 @@
+{
+    "IAs de imágenes": [
+        {
+         "id": "ia001",
+         "nombre": "Adobe Firefly",
+         "tipo": "Generador de imágenes, entre otros.",
+         "modelo": "Adobe Sensei",
+         "dataset_usado": "Adobe Stock, imágenes de dominio público y contenido bajo licencias como Creative Commons.",
+         "licencia": "Adobe no reclama propiedad sobre el contenido generado",
+         "url_demo": "https://www.adobe.com/firefly",
+         "imagen_preview": colocar imagen,
+         "descripcion": "IA generativa dentro de Adobe (Photoshop, Illustrator) que ayuda a crear imágenes, patrones, mockups, etc."
+         },
+
+       {
+         "id": "ia002",
+         "nombre": "Remove.bg",
+         "tipo": "Quita fondos",
+         "modelo": "Usa su propio modelo de IA especializado en detección y extracción del sujeto en imágenes.",
+         "dataset_usado": "Basado en millones de imágenes de escenario en fondo transparente, biomejoradas mediante anotaciones manuales y aprendizaje supervisado. (Información basada en la documentación oficial de la empresa.)",
+         "licencia": "El servicio permite fines comerciales según sus términos: las imágenes generadas pueden usarse sin restricción, aunque Remove.bg conserva ciertos derechos sobre el procesamiento.",
+         "url_demo": "https://www.remove.bg",
+         "imagen_preview": colocar imagen,
+         "descripcion": "Quita fondos automáticamente de imágenes, muy útil para presentaciones o renders."
+        },
+
+        {
+         "id": "ia003",
+         "nombre": "Midjourney",
+         "tipo": "Generador de imágenes",
+         "modelo": "Modelo propietario de generación de imágenes.",
+         "dataset_usado": "imágenes e instrucciones textuales, “scrapeadas” en internet.",
+         "licencia": "Usuarios gratuitos: Creative Commons Attribution‑NonCommercial 4.0 International (CC BY‑NC 4.0). / Usuarios de pago: derechos comerciales completos, con ciertas restricciones.",
+         "url_demo": "https://www.midjourney.com",
+         "imagen_preview": colocar imagen,
+         "descripcion": "Generación de imágenes a partir de texto (text-to-image). Ideal para inspiración, moodboards, afiches, ilustraciones conceptuales. Se usa a través de Discord."
+         }
+    ]  
+}
+
+
+{
+    "IAs de colores": [
+        {
+         "id": "ia004",
+         "nombre": "Khroma",
+         "tipo": "Generador de paletas de colores",
+         "modelo": "Algoritmo de red neuronal entrenado en el navegador.",
+         "dataset_usado": "Se basa en miles de paletas diseñadas por humanos disponibles en la web.",
+         "licencia": "licencia",
+         "url_demo": "https://www.khroma.co/",
+         "imagen_preview": colocar imagen,
+         "descripcion": "Un generador de paletas de colores basado en tus preferencias personales usando IA. Súper útil para branding y diseño de identidad visual."
+         }
+    ]
+}
+
+
+"IAs para FADU": ["IAs de imágenes","IAs de colores"]
